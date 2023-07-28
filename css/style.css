@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/animals.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(45, 46, 49, 0.8); /* Slight opacity for the container */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  label, input, select {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

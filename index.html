@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Tracker</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Wildlife Tracker</h1>
+  </header>
+  <main>
+    <div class="sightform">
+    <form id="sightingForm">
+      <label for="animalName">Animal Name:</label>
+      <input type="text" id="animalName" required>
+      
+      <label for="health">Health:</label>
+      <select id="health" required>
+        <option value="healthy">Healthy</option>
+        <option value="ill">Ill</option>
+        <option value="okay">Okay</option>
+      </select>
+      
+      <label for="age">Age:</label>
+      <select id="age" required>
+        <option value="newborn">Newborn</option>
+        <option value="young">Young</option>
+        <option value="adult">Adult</option>
+      </select>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" required>
+      
+      <label for="rangerName">Ranger Name:</label>
+      <input type="text" id="rangerName" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+    </div> 
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
